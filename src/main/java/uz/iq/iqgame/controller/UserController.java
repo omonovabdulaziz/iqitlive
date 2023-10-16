@@ -1,5 +1,6 @@
 package uz.iq.iqgame.controller;
 
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -37,6 +38,7 @@ public class UserController {
     }
 
 
+    @Transactional
     @DeleteMapping("/delete/{email}")
     public String delete(@PathVariable String email) {
         userRepository.deleteByEmail(email);
