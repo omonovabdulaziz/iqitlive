@@ -53,9 +53,7 @@ public class UserDataServiceImpl implements UserDataService {
     @Override
     public ResponseEntity<ApiResponse> addUserData(UserDataForSave userDataForSave) {
         Question question = questionRepository.findById(userDataForSave.getQuestionId()).orElseThrow(() -> new NotFoundException("Savol topilmadi"));
-        String email = SecurityContextHolder.getContext().getAuthentication().getName();
-        User user = userRepository.findByEmail(email).orElseThrow(() -> new NotFoundException("Foydalanuvchi topilmadi"));
-
+        User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         if (!Objects.equals(user.getStatus().getId(), question.getStatus().getId())) {
             throw new MainException("Siz ushbu savolga javob bera olmaysiz");
         }

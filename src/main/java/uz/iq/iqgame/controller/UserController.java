@@ -19,7 +19,7 @@ public class UserController {
 
     @GetMapping("/getOwnInformation")
     public ResponseEntity<UserOwnDataDTO> getOwnInformation() {
-        return userService.getOwnInformatioin();
+        return userService.getOwnInformation();
     }
 
     @PreAuthorize("hasRole('USER')")

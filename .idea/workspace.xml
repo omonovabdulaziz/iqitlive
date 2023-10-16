@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="18083df3-8d8e-46e3-8f91-52ebbaf30c7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/impl/UserDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/impl/UserDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +191,7 @@
       <workItem from="1697201587028" duration="2965000" />
       <workItem from="1697268016711" duration="745000" />
       <workItem from="1697272051639" duration="776000" />
+      <workItem from="1697461216916" duration="739000" />
     </task>
     <task id="LOCAL-00001" summary="tugadi">
       <option name="closed" value="true" />

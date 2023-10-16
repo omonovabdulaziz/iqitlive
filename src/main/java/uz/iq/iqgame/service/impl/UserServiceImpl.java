@@ -19,6 +19,8 @@ import uz.iq.iqgame.repository.UserDataRepository;
 import uz.iq.iqgame.repository.UserRepository;
 import uz.iq.iqgame.service.UserService;
 
+import java.util.Objects;
+
 @Service
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
@@ -31,7 +33,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
 
-    public ResponseEntity<UserOwnDataDTO> getOwnInformatioin() {
+    public ResponseEntity<UserOwnDataDTO> getOwnInformation() {
         User currentUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         return ResponseEntity.ok(userOwnDataMapper.toDTO(currentUser));
     }
@@ -46,14 +48,13 @@ public class UserServiceImpl implements UserService {
         if (userUpdateDTO.getPassword() != null && !userUpdateDTO.getPassword().equals("") && !userUpdateDTO.getPassword().equals(" "))
             currentUser.setPassword(passwordEncoder.encode(userUpdateDTO.getPassword()));
 
-        if (!currentUser.getGroups().getId().equals(userUpdateDTO.getGroupsId())) {
+        if (!Objects.equals(currentUser.getStatus().getId(), userUpdateDTO.getStatusId())) {
             if (!statusRepository.existsByGroupsIdAndId(userUpdateDTO.getGroupsId(), userUpdateDTO.getStatusId()))
                 throw new MainException("Tanlagan statusingiz ushbu gruppaga tegishli emas");
-
-            currentUser.setBall(0L);
             currentUser.setGroups(groupRepository.findById(userUpdateDTO.getGroupsId()).orElseThrow(() -> new NotFoundException("Group topilmadi")));
             currentUser.setStatus(statusRepository.findById(userUpdateDTO.getStatusId()).orElseThrow(() -> new NotFoundException("Status topilmadi")));
             currentUser.setBall(0L);
+            currentUser.setIsFinished(false);
             userDataRepository.deleteUserDataByUser(userRepository.findById(currentUser.getId()).orElseThrow(() -> new NotFoundException("User topilmadi")));
         }
 
