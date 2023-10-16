@@ -25,24 +25,18 @@ public class UserController {
         return userService.getOwnInformation();
     }
 
+    @Transactional
     @PreAuthorize("hasRole('USER')")
     @PutMapping("/updateOwnInformation")
     public ResponseEntity<ApiResponse> updateOwnInformation(@RequestBody UserUpdateDTO userUpdateDTO) {
         return userService.updateOwnInformation(userUpdateDTO);
     }
 
+
     @PreAuthorize("hasRole('USER')")
     @PutMapping("/setIsFinished")
     public ResponseEntity<ApiResponse> setIsFinished() {
         return userService.setIsFinished();
-    }
-
-
-    @Transactional
-    @DeleteMapping("/delete/{email}")
-    public String delete(@PathVariable String email) {
-        userRepository.deleteByEmail(email);
-        return "Malades";
     }
 
 }

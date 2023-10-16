@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18083df3-8d8e-46e3-8f91-52ebbaf30c7b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/uz/iq/iqgame/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uz/iq/iqgame/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar" afterDir="false" />
@@ -194,6 +192,7 @@
       <workItem from="1697462177675" duration="2761000" />
       <workItem from="1697465316861" duration="281000" />
       <workItem from="1697466117337" duration="419000" />
+      <workItem from="1697469019253" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="tugadi">
       <option name="closed" value="true" />
