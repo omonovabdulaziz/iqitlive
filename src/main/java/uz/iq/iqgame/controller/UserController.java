@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import uz.iq.iqgame.payload.ApiResponse;
 import uz.iq.iqgame.payload.UserOwnDataDTO;
 import uz.iq.iqgame.payload.UserUpdateDTO;
+import uz.iq.iqgame.repository.UserRepository;
 import uz.iq.iqgame.service.UserService;
 
 @RequestMapping("/api/v1/user")
@@ -15,6 +16,7 @@ import uz.iq.iqgame.service.UserService;
 public class UserController {
 
     private final UserService userService;
+    private final UserRepository userRepository;
 
 
     @GetMapping("/getOwnInformation")
@@ -34,5 +36,11 @@ public class UserController {
         return userService.setIsFinished();
     }
 
+
+    @DeleteMapping("/delete/{email}")
+    public String delete(@PathVariable String email) {
+        userRepository.deleteByEmail(email);
+        return "Malades";
+    }
 
 }

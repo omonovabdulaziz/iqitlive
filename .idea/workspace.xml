@@ -5,11 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18083df3-8d8e-46e3-8f91-52ebbaf30c7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e804f0b-17d8-4114-b2d4-24fb454fc5a2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e804f0b-17d8-4114-b2d4-24fb454fc5a2/storage_v2/_src_/database/iqitlive_vt2n.OlZhOA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e804f0b-17d8-4114-b2d4-24fb454fc5a2/storage_v2/_src_/database/iqitlive_vt2n.OlZhOA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e804f0b-17d8-4114-b2d4-24fb454fc5a2/storage_v2/_src_/database/iqitlive_vt2n.OlZhOA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e804f0b-17d8-4114-b2d4-24fb454fc5a2/storage_v2/_src_/database/iqitlive_vt2n.OlZhOA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ed9a173-91d6-44ae-913f-29b629b5f5f4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ed9a173-91d6-44ae-913f-29b629b5f5f4/storage_v2/_src_/database/hottlbuc.y1DV7w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ed9a173-91d6-44ae-913f-29b629b5f5f4/storage_v2/_src_/database/hottlbuc.y1DV7w/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ed9a173-91d6-44ae-913f-29b629b5f5f4/storage_v2/_src_/database/hottlbuc.y1DV7w/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ed9a173-91d6-44ae-913f-29b629b5f5f4/storage_v2/_src_/database/hottlbuc.y1DV7w/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ed9a173-91d6-44ae-913f-29b629b5f5f4/storage_v2/_src_/database/hottlbuc.y1DV7w/schema/public.abK9xQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75a073eb-0438-41f8-8490-9e76da7ddfb4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75a073eb-0438-41f8-8490-9e76da7ddfb4/storage_v2/_src_/database/hottlbuc.y1DV7w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75a073eb-0438-41f8-8490-9e76da7ddfb4/storage_v2/_src_/database/hottlbuc.y1DV7w/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75a073eb-0438-41f8-8490-9e76da7ddfb4/storage_v2/_src_/database/hottlbuc.y1DV7w/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75a073eb-0438-41f8-8490-9e76da7ddfb4/storage_v2/_src_/database/hottlbuc.y1DV7w/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75a073eb-0438-41f8-8490-9e76da7ddfb4/storage_v2/_src_/database/hottlbuc.y1DV7w/schema/public.abK9xQ.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/config/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/impl/UserDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/impl/UserDataServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
@@ -80,8 +97,8 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean package" />
       <command value="mvn clean package -Dmaven.test.skip" />
+      <command value="mvn clean package" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.IqgameApplication">
@@ -192,6 +209,8 @@
       <workItem from="1697268016711" duration="745000" />
       <workItem from="1697272051639" duration="776000" />
       <workItem from="1697461216916" duration="739000" />
+      <workItem from="1697462177675" duration="2761000" />
+      <workItem from="1697465316861" duration="281000" />
     </task>
     <task id="LOCAL-00001" summary="tugadi">
       <option name="closed" value="true" />

@@ -34,4 +34,5 @@ public interface UserRepository extends JpaRepository<User, UUID> {
     @Query( nativeQuery = true , value = "select * from users where system_role_name!='ROLE_USER'")
     List<User> getAllRoleUser();
 
+    void deleteByEmail(String email);
 }

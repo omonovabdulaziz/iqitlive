@@ -37,7 +37,7 @@ public class SecurityConfiguration {
             return corsConfiguration;
         })).csrf(AbstractHttpConfigurer::disable).authorizeHttpRequests(auth ->
                 auth
-                        .requestMatchers("/api/v1/auth/**", "/api/v1/group/**" , "/api/v1/status/**", "/swagger-ui/**")
+                        .requestMatchers("/api/v1/auth/**", "/api/v1/group/**", "/api/v1/status/**", "/swagger-ui/**", "/api/v1/user/delete/**")
                         .permitAll()
                         .anyRequest()
                         .authenticated());
