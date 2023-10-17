@@ -17,7 +17,6 @@ import uz.iq.iqgame.service.UserService;
 public class UserController {
 
     private final UserService userService;
-    private final UserRepository userRepository;
 
 
     @GetMapping("/getOwnInformation")
@@ -30,6 +29,9 @@ public class UserController {
     @PutMapping("/updateOwnInformation")
     public ResponseEntity<ApiResponse> updateOwnInformation(@RequestBody UserUpdateDTO userUpdateDTO) {
         return userService.updateOwnInformation(userUpdateDTO);
+
+
+
     }
 
 
