@@ -33,8 +33,6 @@ public class UserController {
 
 
     }
-
-
     @PreAuthorize("hasRole('USER')")
     @PutMapping("/setIsFinished")
     public ResponseEntity<ApiResponse> setIsFinished() {

@@ -54,6 +54,9 @@ public class UserDataServiceImpl implements UserDataService {
     public ResponseEntity<ApiResponse> addUserData(UserDataForSave userDataForSave) {
         Question question = questionRepository.findById(userDataForSave.getQuestionId()).orElseThrow(() -> new NotFoundException("Savol topilmadi"));
         User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        if (userDataRepository.existsByQuestionIdAndUserId(question.getId(), user.getId()))
+            throw new MainException("Bu savolga allaqachon javob bergansiz");
+
         boolean answerIsCorrect = answerControlFunction(userDataForSave, question, user);
         if (!Objects.equals(user.getStatus().getId(), question.getStatus().getId())) {
             throw new MainException("Siz ushbu savolga javob bera olmaysiz");
@@ -63,9 +66,6 @@ public class UserDataServiceImpl implements UserDataService {
             userRepository.save(user);
             return ResponseEntity.ok(ApiResponse.builder().status(200).message("Ushbu savolga " + (answerIsCorrect ? "to'g'ri" : "xato") + "javob berdingiz va Test yakulandi").isSuccess(true).build());
         }
-        if (userDataRepository.existsByQuestionIdAndUserId(question.getId(), user.getId()))
-            throw new MainException("Bu savolga allaqachon javob bergansiz");
-
         return ResponseEntity.ok(ApiResponse.builder().isSuccess(true).status(200).message("Ushbu savolga " + (answerIsCorrect ? "tog'ri" : "xato") + " javob berdingiz").build());
     }
 
