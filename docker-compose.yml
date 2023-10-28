@@ -9,7 +9,7 @@ services:
     environment:
       POSTGRES_DB: hottlbuc
       POSTGRES_USER: hottlbuc
-      POSTGRES_PASSWORD: bcbaXAN-75xeMnp3IE3AypAFoCtgliaJ
+      POSTGRES_PASSWORD: IjBZxbzUzPtsgqGMVJ57WgI8gxwduRxA
   web:
     container_name: simple-app
     build: .
@@ -21,4 +21,4 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://surus.db.elephantsql.com:5432/hottlbuc
       SPRING_DATASOURCE_USERNAME: hottlbuc
-      SPRING_DATASOURCE_PASSWORD: bcbaXAN-75xeMnp3IE3AypAFoCtgliaJ
+      SPRING_DATASOURCE_PASSWORD: IjBZxbzUzPtsgqGMVJ57WgI8gxwduRxA

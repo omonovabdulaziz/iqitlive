@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="18083df3-8d8e-46e3-8f91-52ebbaf30c7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/555cac5b-aef1-40a7-95d7-05f5827ba40d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/555cac5b-aef1-40a7-95d7-05f5827ba40d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/555cac5b-aef1-40a7-95d7-05f5827ba40d/storage_v2/_src_/database/hottlbuc.y1DV7w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/555cac5b-aef1-40a7-95d7-05f5827ba40d/storage_v2/_src_/database/hottlbuc.y1DV7w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/impl/UserDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iq/iqgame/service/impl/UserDataServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/iqitlive-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,6 +195,12 @@
       <workItem from="1697469019253" duration="747000" />
       <workItem from="1697525010038" duration="6343000" />
       <workItem from="1697531954487" duration="539000" />
+      <workItem from="1697602806896" duration="452000" />
+      <workItem from="1697631137329" duration="22000" />
+      <workItem from="1697631173402" duration="233000" />
+      <workItem from="1697631420365" duration="101000" />
+      <workItem from="1697795492410" duration="1238000" />
+      <workItem from="1697797910832" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="tugadi">
       <option name="closed" value="true" />
